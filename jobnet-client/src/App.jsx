@@ -1,12 +1,13 @@
-const App = () => {
 
+
+const App = () => {
   return (
     <>
-      <div>
+      <div className="bg-sky-300">
         <h2>JobNet UI</h2>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
