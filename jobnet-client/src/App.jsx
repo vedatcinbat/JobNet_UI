@@ -1,4 +1,5 @@
 import {BrowserRouter, Route, Routes} from "react-router-dom";
+import "./Styles/HeaderStyle.css"
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Companies from "./pages/Companies.jsx"
