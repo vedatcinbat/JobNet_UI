@@ -6,6 +6,7 @@ import Companies from "./pages/Companies.jsx"
 import Jobs from "./pages/Jobs.jsx";
 import Login from "./pages/Login.jsx";
 import Signup from "./pages/Signup.jsx";
+import CompanyPage from "./pages/CompanyPage.jsx";
 const App = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const App = () => {
               <Route path="/home" element={<Home />}/>
               <Route path="/about" element={<About />}/>
               <Route path="/companies" element={<Companies />}/>
+              <Route path="/companies/:companyId" element={<CompanyPage />}/>
               <Route path="/jobs" element={<Jobs />}/>
               <Route path="/login" element={<Login />}/>
               <Route path="/signup" element={<Signup />}/>
